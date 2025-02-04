@@ -88,24 +88,20 @@ Set up environment variables in the .env file (e.g., database credentials, API k
 Start the backend server:
 
 bash
-Copy
 npm run dev
 Frontend (Flutter) Setup
 Web Frontend Setup
 Navigate to the web directory:
 
 bash
-Copy
 cd multiverse-language-school/web
 Install Flutter dependencies:
 
 bash
-Copy
 flutter pub get
 To run the web version:
 
 bash
-Copy
 flutter run -d chrome
 Mobile App Setup
 Navigate to the mobile directory:
@@ -116,17 +112,14 @@ cd multiverse-language-school/mobile
 Install Flutter dependencies:
 
 bash
-Copy
 flutter pub get
 Run the app on Android/iOS:
 
 For Android:
 bash
-Copy
 flutter run -d android
 For iOS (macOS only):
 bash
-Copy
 flutter run -d ios
 Testing the Application
 After setting up the web and mobile applications, you can:
